@@ -1,0 +1,138 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+body{
+    background-color: aqua;
+    width:100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.navbar{
+    position: absolute;
+    /* top:5%; */
+    margin: 10px 5px;
+    z-index: 100;
+    width:100%;
+}
+.navbar img{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top:0%;
+    left: 0%;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    word-spacing: 5px;
+    margin-left: 10px;
+}
+.navbar ul li a:hover, .active{
+    border-radius: 25px;
+    border:2px solid white;
+    font-weight: bolder;
+}
+.taylor{
+    position: absolute;
+    right: 5%;
+    bottom:0%;
+    width: 500px;
+    height: 700px;
+    /* border:1px solid black; */
+}
+
+.taylor img{
+    position: absolute;
+    bottom: -2%;
+    right: 0%;
+}
+.boxes{
+    position: relative;
+    width: 900px;
+    height: 100px;
+    border:1px solid black;
+    top:15%;
+    left:2%;
+    margin:15px 5px;
+    border-radius: 20px;
+    background:rgba(255, 255, 255, 0.7);
+    /* opacity: 0.3; */
+    z-index: -1;
+}
+.boxes h1{
+    position: absolute;
+    top:5px;
+    left: 10px;
+    color: black;
+    /* filter: invert(100%); */
+    /* opacity: 1; */
+    z-index: 1000;
+}
+.para{
+    position: absolute;
+    top:45px;
+    left:10px;
+    width: 700px;
+    height: 50px;
+    /* border:1px solid white; */
+}
+.para p{
+    color: black;
+}
+#box1,#box3,#box5{
+    left:10%;
+    border-top-right-radius: 0px;
+}
+#box2,#box4{
+    border-top-left-radius: 0px;
+}
+.hair{
+    position: absolute;
+    right:33%;
+    height: 90px;
+    width: 90px;
+    border:1px solid white;
+    border-radius: 50%;
+}
+.hair img{
+    width:90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.nail{
+    position: absolute;
+    right:33%;
+    height: 90px;
+    width: 90px;
+    border:1px solid white;
+    border-radius: 50%;
+}
+.nail img{
+    width:90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.spa{
+    position: absolute;
+    right:33%;
+    height: 90px;
+    width: 90px;
+    border:1px solid white;
+    border-radius: 50%;
+}
+.spa img{
+    width:90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+}
